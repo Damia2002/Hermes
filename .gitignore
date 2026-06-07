@@ -26,12 +26,16 @@ env/
 # Storage — local data, do not commit
 storage/qdrant/
 storage/hermes.db
+storage/bm25.db
 storage/logs/
 storage/evaluation/
 
 # Dataset downloads — too large for git
 data/base_corpus/
 data/incoming_updates/
+data/**/*.parquet
+data/**/*.jsonl
+data/**/*.json
 data/*.parquet
 data/*.jsonl
 data/*.json
