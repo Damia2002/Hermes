@@ -3,6 +3,8 @@
 This file contains only user-approved, durable notes for HERMES.
 Conversation logs are NOT automatically saved here.
 
+> **Note:** This file is documentation only — it is not loaded at runtime. The memory system is implemented in `app/memory/`. The global defaults listed below describe intended behaviour enforced in code (agent prompts and output validation), not rules read from this file. The memory types (`episodic`, `semantic`, `procedural`) are defined as a hardcoded set in `app/memory/manager.py`. Use the Streamlit UI or `POST /v1/memory` to add live memory entries.
+
 ---
 
 ## Global Defaults

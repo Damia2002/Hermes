@@ -1,6 +1,8 @@
 # AGENTS.md — HERMES Agent Roles and Governance
 
-This file defines the roles, responsibilities, permissions, and constraints of every agent in the HERMES multi-agent system. It is loaded at runtime to inform the CrewAI crew configuration.
+This file defines the roles, responsibilities, permissions, and constraints of every agent in the HERMES multi-agent system.
+
+> **Note:** This file is documentation only — it is not loaded at runtime. Agent behaviour is implemented in `app/agents/`. This file exists as a human-readable contract describing what each agent does, what tools it may use, and what governance rules apply.
 
 ---
 
