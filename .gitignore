@@ -1,0 +1,73 @@
+# Environment — NEVER commit real credentials
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# uv
+.uv/
+
+# Storage — local data, do not commit
+storage/qdrant/
+storage/hermes.db
+storage/logs/
+storage/evaluation/
+
+# Dataset downloads — too large for git
+data/base_corpus/
+data/incoming_updates/
+data/*.parquet
+data/*.jsonl
+data/*.json
+
+# Model cache
+.cache/
+models/
+*.bin
+*.safetensors
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+*.log
+
+# Langfuse traces (local fallback)
+traces/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Reports (generated)
+evals/reports/*.csv
+evals/reports/*.html
+evals/reports/*.png
